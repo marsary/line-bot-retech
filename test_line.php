@@ -10,7 +10,8 @@ $user_id = $json_obj->events[0]->source->userId . "\n";
 // ファイル出力
 file_put_contents(
     'info.php',
-    $type . $user_id
+//    $type . $user_id
+    'testtest'
 );
 
 file_put_contents(
